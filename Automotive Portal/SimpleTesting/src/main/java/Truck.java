@@ -18,11 +18,11 @@ public class Truck extends Car {
     public String toString() {
         return super.toString()
                 .replace("Car", "Truck")
-                .replace("}",", maximumLoadCapacity: "+maximumLoadCapacity+"}");
+                .replace("}", ", maximumLoadCapacity: " + maximumLoadCapacity + "}");
     }
 
     @Override
     public String makeNoise() {
-        return super.makeNoise() + " Beeep!!!";
+        return super.makeNoise() + " Beep!!!";
     }
 }

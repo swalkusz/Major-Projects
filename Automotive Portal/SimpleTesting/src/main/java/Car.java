@@ -31,7 +31,7 @@ public class Car implements VehicleActivities {
     }
 
     public void setNumberOfHP(short numberOfHP) {
-        if ( numberOfHP < 0)
+        if (numberOfHP < 0)
             throw new IllegalArgumentException("You cannot set car HP below 0! ");
         this.numberOfHP = numberOfHP;
     }
@@ -97,14 +97,14 @@ public class Car implements VehicleActivities {
     @Override
     public String toString() {
         StringJoiner stringJoiner = new StringJoiner(", ", "{", "}");
-        stringJoiner.add("brand: "+brand)
-                .add("bodyType: "+bodyType)
-                .add("numberOfWheels: "+numberOfWheels)
-                .add("HP: "+numberOfHP)
-                .add("price: "+price)
-                .add("VIN: "+vin)
-                .add("production: "+productionYear);
-        return "Car: "+stringJoiner;
+        stringJoiner.add("brand: " + brand)
+                .add("bodyType: " + bodyType)
+                .add("numberOfWheels: " + numberOfWheels)
+                .add("HP: " + numberOfHP)
+                .add("price: " + price)
+                .add("VIN: " + vin)
+                .add("production: " + productionYear);
+        return "Car: " + stringJoiner;
     }
 
     @Override
