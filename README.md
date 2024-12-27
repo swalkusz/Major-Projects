@@ -9,3 +9,4 @@ Here you can see my projects. I will post more projects soon.
 3. *`Pastebin Webdriver`* - folder *WebDriver - testing the Pastebin platform* - program that allows to add New Paste in https://pastebin.com/ platform. Based on Selenium WebDriver, Maven, Java.
 4. *`Cloud Google Webdriver`* - folder *WebDriver - Framework_Cloud_Google* - allows you to estimate the costs of renting a vCPU via the https://cloud.google.com/ platform. Based on Selenium WebDriver, Maven, Java.
 5. *`Sapper`* - offline game. Java, Maven, GUI in Swing. 
+6. *`RESTful API - Swagger Petstore`* - Enables interaction with the server using RESTful methods. Built with Python and utilizes JSON and HTTP protocols.
